@@ -4,8 +4,9 @@ output:
   html_document:
     keep_md: true
 ---
-
-
+```{r setecho, echo=FALSE}
+opts_chunk$set(echo=FALSE, results="hide")
+```
 ## Loading and preprocessing the data
 
 
